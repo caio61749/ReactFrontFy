@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: Black;
+  font-family: sans-serif;
+  margin: 0;
+  transition:1000ms;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  user-select: none
+}
+
+main{
+  transition:1000ms;
+  display: flex;
+  flex-direction: column;
+  flex: 1
+}
+
+#container-branco{
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  transition:1000ms;
+}
+
+#logo{
+    position:relative;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px
+   
+}
+#logo1{
+    
+  display:flex;
+  font-size: 16px;
+  padding: 16px
+}
+.menor:active{
+  transform: scale(0.9);
+}
+#logo2{
+    
+  display:flex;
+  
+  font-size: 16px;
+  padding: 16px
+}
+
+#titulo{
+  color:black;
+  font-size: 14px;
+}
+#nomemusica{
+  color:black;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+#banda{
+  color:black;
+  font-size: 14px;
+  font-weight: unset;
+  margin-bottom: 50px;
+  
+}
+
+
+
+
+
+
+#container-bolinha{
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#imagem{
+ 
+
+    height:170px;
+  width: 170px;
+  border-radius: 100%;
+
+  
+   
+}
+.capagir{
+  animation: spin 3000ms infinite linear;
+  animation-fill-mode: forwards;
+}
+@keyframes spin{
+  0%{
+    transform:rotate(0deg)
+  }
+  50%{
+    transform:rotate(180deg) scale(0.9);
+  }
+  100%{
+    transform:rotate(360deg); 
+  }
+}
+ul{
+  list-style: none;
+}
+
+
+#lista-do-header{
+  background-color: black;
+  display: flex;
+  position:relative;
+  justify-content: space-between;
+  flex: 1;
+  display: flex;
+  flex-direction: line;
+  align-self: center
+}
+
+#seila{
+  background-color:red
+}
+#lista-do-player{
+  background-color: transparent;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+  margin-bottom: 10px;
+  transition:1000ms;
+  width: 250px;
+  align-self: center
+}
+
+#seta1{
+  background-color: transparent;
+  border-radius: 100%;
+  display: flex;
+ 
+  padding: 25px 25px;
+  margin-bottom: 64px;
+
+  align-self: center
+}
+#seta2{
+  background-color: transparent;
+  border-radius: 100%;
+  display: flex;
+ 
+  padding: 25px 25px;
+  margin-bottom: 64px;
+
+  align-self: center
+}
+#play{
+  background-color: red;
+  border-radius: 100%;
+  display: flex;
+ 
+  padding: 25px 25px;
+  margin-bottom: 64px;
+  box-shadow: 0px 0px 20px  rgba(255,0,0,2.0);
+  align-self: center
+}
+
+.bola{
+  background-color: black;
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  position:relative;
+  align-items:center;
+  top: 10px;
+  box-shadow: 0px 0px 20px  rgba(0,0,0,1.0);
+}
+
+
+
